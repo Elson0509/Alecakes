@@ -1,0 +1,327 @@
+body, html {
+  height: 100%;
+}
+
+/*menu*/
+.bg-top{
+	background-image: url("../img/menu3.jpg");
+	/*Background Photo from  <a href="https://pngtree.com/freebackground/beautiful-romantic-birthday-cake-star-point-birthday-party-background-material_391899.html">pngtree.com</a>*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+.navbar-brand:hover{
+	transform:scale(1.2);
+	transition-duration: 2s;
+	opacity: 0.8;
+}
+
+.logotext{
+	font-family: 'Rock Salt', cursive;
+	margin-top: 2px;
+	margin-left:-10px;
+}
+
+.nav-item a{
+	font-size:22px;
+	color:white;
+	/*contorno no texto*/
+	-webkit-text-stroke-width: 0.3px;
+	-webkit-text-stroke-color: #000;
+}
+
+.fa-bars{
+	color:white;
+	background: #f8a5b3;
+	border: 10px solid #f8a5b3;
+}
+
+.nav-item a:hover{
+	transform:scale(1.1);
+	transition-duration: 2s;
+}
+
+#menu li{
+	font-size:22px;
+}
+
+#lang{
+	padding: 10px 0 10px 0 !important;
+    cursor: pointer;
+}
+
+#lang i{
+	font-size:25px;
+}
+
+.collapse{
+	color:red !important;
+}
+
+.mytoggle{
+	/*color:#9899ff;*/
+	color:#f86563;
+	/*contorno no texto*/
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #000;
+}
+
+.mytoggle:hover{
+	color:#3374a2;
+	transform:scale(1.2);
+	transition-duration: 2s;
+	/*contorno no texto*/
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #489;
+}
+
+.langtext{
+	font-size:20px;
+}
+
+.gradientbar{
+	background: linear-gradient(90deg, #A08560 10%, #FF8267 100%);
+	height:8px;
+}
+
+/*slide*/
+
+#slideControl{
+	font-size:40px;
+}
+
+.carousel-indicators > li{
+	width: 12px;
+	height: 12px;
+	border-radius:50%;
+}
+
+/*Parallax session*/
+.parallax{
+	background-image: url("../img/cakeParallax2.jpg");
+	/*<a href="https://pngtree.com/free-backgrounds">free background photos from pngtree.com</a>*/
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+	/*border*/
+	border-top: 4px solid #FCD;
+}
+
+.parallax p{
+	font-size: 25px;
+	letter-spacing: 1px;
+	color:#000;
+	margin-top:2px;
+	margin-bottom:6px;
+	text-align:center;
+	/*contorno no texto*/
+	-webkit-text-stroke-width: 0.5px;
+	-webkit-text-stroke-color: #34F;
+}
+
+.parallax h1{
+	font-size:55px;
+	letter-spacing: 2px;
+	color:#a94423;
+	margin-top:2px;
+	margin-bottom:2px;
+	text-align:center;
+	/*contorno no texto*/
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000;
+}
+
+.parallax i{
+	color:#832;
+	font-size:50px;
+	text-align:center;
+	/*contorno no texto*/
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #fff;
+}
+
+/*cards*/
+.card:hover{
+	opacity: 0.8;
+	transform:scale(1.1);
+	transition-duration: 2s;
+}
+
+/*accessories*/
+.underline{
+	border-top: 2px solid #fff;
+	width: 170px;
+	display:block;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	margin: 0 auto;
+}
+
+.verticalbar{
+	border-left: 1px solid white;
+	border-right:1px solid white;
+	height: 35px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+/*Recheios*/
+.recheios p{
+    font-size:18px;
+    letter-spacing:1px;
+    margin:12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-style:oblique;
+    font-weight: bold;
+}
+
+.recheios h1{
+    font-size:35px;
+    margin:12px;
+    font-style:oblique;
+    font-family: 'Rock Salt', cursive;
+    /*contorno no texto*/
+	-webkit-text-stroke-width: 0.1px;
+	-webkit-text-stroke-color: #fff;
+}
+
+.recheios i{
+    color:#FFF;
+	font-size:50px;
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+.recheios table{
+    letter-spacing: 1px;
+}
+
+/*footer*/
+.footer{
+	border-top:15px solid #333;
+	background: linear-gradient(90deg, #485563 10%, #29323c 90%);
+	text-align:center;
+}
+
+.footer a{
+	text-decoration: none;
+	color:white;
+}
+
+.footer img{
+	height:150px;
+}
+
+.footer p{
+	letter-spacing: 1px;
+	font-size: 16px;
+	color:white;
+}
+
+.footer h1{
+	font-weight: 500;
+	font-family: 'Rock Salt', cursive;
+}
+
+.about{
+	border: 6px inset white;
+	border-radius: 15px;
+}
+
+.iconmarker{
+	font-size: 25px;
+}
+
+.iconphone{
+	font-size: 25px;
+}
+
+#iconnav{
+	font-size:40px;
+}
+
+#iconnav i{
+	color:#fff;
+	transition: all 0.3s ease;
+    margin-left: 9px;
+}
+
+.fa-facebook:hover{
+	color:#3b5998 !important;
+}
+
+.fa-linkedin:hover{
+	color:#007BB5 !important;
+}
+
+.fa-instagram:hover{
+	color:#e95950 !important;
+}
+
+.fa-whatsapp-square:hover{
+	color:#4dc247 !important;
+}
+
+/*price section*/
+#price_figure{
+    position:relative;
+}
+
+figcaption{
+    position:absolute;
+}
+
+.size{
+    font-size:12px;
+    color:black;
+    text-shadow: 0 0 5px black;
+    left:29.5%;
+}
+
+#size1{
+    top:9%;
+}
+
+#size2{
+    top:18%;
+}
+#size3{
+    top:30%;
+}
+#size4{
+    top:43%;
+}
+#size5{
+    top:58%;
+}
+#size6{
+    top:72%;
+}
+.price{
+    font-size:14px;
+    color:black;
+    font-weight: bold;
+    left:60%;
+}
+#price1{
+    top:9%;
+}
+#price2{
+    top:18%;
+}
+#price3{
+    top:30%;
+}
+#price4{
+    top:43%;
+}
+#price5{
+    top:58%;
+}
+#price6{
+    top:72%;
+}

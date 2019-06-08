@@ -1,0 +1,87 @@
+<?php
+
+use Illuminate\Database\Seeder;
+
+class PriceSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::table('prices')->insert([
+            'language_id'=>1,
+            'size'=>15,
+            'people'=>10,
+            'price'=>90
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>1,
+            'size'=>20,
+            'people'=>28,
+            'price'=>120
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>1,
+            'size'=>25,
+            'people'=>42,
+            'price'=>180
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>1,
+            'size'=>30,
+            'people'=>56,
+            'price'=>220
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>1,
+            'size'=>35,
+            'people'=>82,
+            'price'=>280
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>1,
+            'size'=>45,
+            'people'=>100,
+            'price'=>350
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>2,
+            'size'=>15,
+            'people'=>10,
+            'price'=>40
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>2,
+            'size'=>20,
+            'people'=>28,
+            'price'=>60
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>2,
+            'size'=>25,
+            'people'=>42,
+            'price'=>90
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>2,
+            'size'=>30,
+            'people'=>56,
+            'price'=>130
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>2,
+            'size'=>35,
+            'people'=>82,
+            'price'=>160
+        ]);
+        DB::table('prices')->insert([
+            'language_id'=>2,
+            'size'=>45,
+            'people'=>100,
+            'price'=>200
+        ]);
+    }
+}
