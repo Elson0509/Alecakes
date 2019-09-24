@@ -16,16 +16,30 @@ php artisan migrate refresh --seed
 ## Screenshots
 <img src="public/img/git/01.jpg" weight="500">
 
+***
+
 <img src="public/img/git/02.jpg" weight="500">
+
+***
 
 <img src="public/img/git/03.jpg" weight="500">
 
+***
+
 <img src="public/img/git/04.jpg" weight="500">
+
+***
 
 <img src="public/img/git/05.jpg" weight="500">
 
+***
+
 <img src="public/img/git/06.jpg" weight="500">
 
+***
+
 <img src="public/img/git/07.jpg" weight="500">
+
+***
 
 <img src="public/img/git/08.jpg" weight="500">
